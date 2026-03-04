@@ -1,9 +1,15 @@
-{
-  "_runbook": "INCIDENT RUNBOOK — How to show an in-app status banner: 1) Edit this file on GitHub (github.com > your-repo > status.json > pencil icon). 2) Set banner.active to true. 3) Write a user-facing message in banner.message. 4) Set banner.type to 'warning', 'error', or 'info'. 5) Optionally add a banner.link URL. 6) Commit directly to main. Changes propagate in ~5 min (GitHub raw CDN cache). To clear the banner: set banner.active to false and commit.",
-  "banner": {
-    "active": true,
-    "message": "Salling Group API oplever i øjeblikket problemer. Produktdata kan være utilgængelige — dette skyldes ikke os.",
-    "type": "warning",
-    "link": "https://developer.sallinggroup.com"
+ {
+    "_runbook": "INCIDENT RUNBOOK — How to show an in-app status banner: 1) Edit this file on GitHub (github.com >
+  your-repo > status.json > pencil icon). 2) Set banner.active to true. 3) Write a user-facing message in
+  banner.message. 4) Set banner.type to 'warning', 'error', or 'info'. 5) Optionally add a banner.link URL. 6) Commit
+  directly to main. Changes propagate in ~5 min (GitHub raw CDN cache). To clear the banner: set banner.active to
+  false and commit.",
+    "banner": {
+      "active": true,
+      "message": "Salling Group API oplever i øjeblikket problemer. Produktdata kan være utilgængelige — dette skyldes
+   ikke os.",
+      "type": "warning",
+      "link": "https://developer.sallinggroup.com"
+    },
+    "minVersion": "1.1.4"
   }
-}
