@@ -5,7 +5,7 @@
   directly to main. Changes propagate in ~5 min (GitHub raw CDN cache). To clear the banner: set banner.active to
   false and commit.",
     "banner": {
-      "active": true,
+      "active": false,
       "message": "Salling Group API oplever i øjeblikket problemer. Produktdata kan være utilgængelige — dette skyldes
    ikke os.",
       "type": "warning",
